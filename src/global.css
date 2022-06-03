@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: blanchedalmond;
+    padding: 4rem;
+}
+/* p {
+    color: black;
+} */
