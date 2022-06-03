@@ -27,30 +27,32 @@ class App extends Component {
 
         {Coin.map((coin, index) => (
           // console.log(coin.value[0])
-<ul>
+
+        <ul>
           <li key={index}>
-                <h2><strong>Cotação de compra: </strong>
-                {coin.value[0].cotacaoCompra}
-                </h2>
+            <h2>
+              <strong>Cotação de compra: </strong>
+              {coin.value[0].cotacaoCompra}
+            </h2>
           </li>
           <li key={index}>
-                <h2><strong>Cotação de venda: </strong>
+            <h2>
+              <strong>Cotação de venda: </strong>
               {coin.value[0].cotacaoVenda}
-                </h2>
-           </li>
+            </h2>
+          </li>
           <li key={index}>
-                <h2><strong>Data e hora da cotação: </strong>
+            <h2>
+              <strong>Data e hora da cotação: </strong>
               {coin.value[0].dataHoraCotacao}
-                </h2>
-           </li>
-           </ul>
+            </h2>
+          </li>
+        </ul>
         ))}
       </div>
     )
   }
 }
-
-
 export default App;
 
 
